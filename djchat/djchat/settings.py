@@ -147,7 +147,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://example.com",
     "https://sub.example.com",
     "http://localhost:8080",
-    "http://127.0.0.1:9000",
+    "http://127.0.0.1:9000","http://localhost:3000"
 ]
 REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
@@ -168,9 +168,7 @@ CORS_ALLOW_METHODS = (
     "PUT",
 )
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
-]
+
 
 CORS_ALLOW_CREDENTIALS = True
 
